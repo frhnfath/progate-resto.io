@@ -1,0 +1,83 @@
+@media (max-width: 1000px) {
+    .container-main h1 {
+        font-size: 32px;
+    }
+
+    .gambarnya {
+        width: 50%;
+    }
+
+    .box h1 {
+        font-size: 32px;
+    }
+    .box p {
+        font-size: 28px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-schedule {
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .footer-contact {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .fa-bar {
+        display: block;
+    }
+
+    .head-list {
+        display: none;
+    }
+
+    .top-main {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .top-main h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .buttons {
+        text-align: center;
+    }
+
+    .resto-log {
+        text-align: center;
+    }
+
+    .gambarnya {
+        width: 100%;
+    }
+
+    .box h1 {
+        font-size: 24px;
+    }
+    
+    .box p {
+        font-size: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-schedule {
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .footer-contact {
+        margin-top: 20px;
+    }
+}

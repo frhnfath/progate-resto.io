@@ -1,0 +1,350 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.container-head {
+    height: 55px;
+    background-color: #404852;
+    color: white;
+}
+
+.home {
+    float: left;
+    display: block;
+    line-height: 55px;
+    margin-right: 20px;
+    padding: 0 20px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.fa-home {
+    font-size: 25px;
+}
+
+.home:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+.fa-bars {
+    color: white;
+    padding: 15px 30px;
+    float: right;
+    font-size: 25px;
+    display: none;
+}
+
+.resto {
+    width: 300px;
+}
+
+.head-list li {
+    float: left;
+    margin: 18px 20px;
+    font-size: 15px;
+}
+
+.top-main {
+    background-image: url(./gambar/background-images.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    text-align: center;
+}
+
+.container-main h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.teks-atas {
+    margin-top: 70px;
+}
+
+.container-main p {
+    margin-bottom: 3px;
+} 
+
+.fab {
+    margin: 20px 2px;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border-radius: 5px;
+}
+
+.fa-facebook-f {
+    padding: 10px 13px;
+}
+
+.fab:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*_______________________Main2 Codingan ari_______________________*/
+
+.main1{
+    margin-top: 32px;
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.contents h2{
+    margin-bottom: 6px;
+    opacity:0.8;
+}
+.contents p{
+    margin-bottom: 10px;
+    font-size:20px;
+}
+.contents h6{
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+.btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    box-shadow: 0 5px #1a7940;
+ }
+ 
+.btn:hover{
+    opacity:1;
+}
+.btn:active{
+    box-shadow: none;
+    position: relative;
+}
+.whatsapp{
+    color: white;
+    background-color: #4cd137;
+}
+.fa{
+    margin-right:2px;
+}
+
+/*__________________Main2 Codingan Afwan_____________________*/
+
+.main2 {
+    width: 100%;
+}
+
+.main2 {
+    background-color: #E8E8E8;
+    text-align: center;
+}
+
+.judul-main2 {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 13px;
+    font-weight: 400;
+}
+
+.text-main2 {
+    max-width: 1100px;
+    font-size: 15px;
+    padding: 0 20px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    font-weight: lighter;
+    line-height: 1.4;
+}
+
+.btn-main2 {
+    color: black;
+    display: inline-block;
+    border: 3px solid #1F0B87;
+    font-weight: 1000;
+    padding: 20px 35px;
+    border-radius: 40px;
+}
+
+.btn-main2:hover {
+    background-color: #BDBDBD;
+    color: #2F2F2F;
+    transition: all 1s;
+}
+
+.btn-main2:active {
+    color: black;
+    background-color: #838383;
+    transition: 0.2s;
+    margin-top: 3px;
+    padding: 17px 32px;
+    margin-bottom: 3px;
+}
+
+.gambar-main2 {
+    margin-top: 60px;
+    margin-bottom: -4px;
+}
+
+.gambarnya {
+    width: 25%;
+    max-height: 300px;
+    margin: -2.1px;
+}
+
+/*_____________________________Main3 codingan evi___________________________*/
+
+.main-3{ 
+    background-image:url(./gambar/menu.jpg);
+    background-size: cover;
+    background-color: rgba(223, 222, 222, 0.9);
+    transition: all 0.5s;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 250px;
+    color: white;
+    height: 200px;
+}
+
+.box{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .menu{
+   width: 250px;
+   background-image: linear-gradient();
+   
+  }
+  .waiter{
+    width: 100px;
+    display: block;
+  }
+  img{
+    display: inline-block;
+    width: 30px;
+  }
+  .box h1{
+      font-size: 60px;
+      color: white;
+      letter-spacing: 5px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      /*text-shadow: 5px 3px 3px #ffff;*/
+  }
+  .box p{
+      font-size: 30px;
+      color:white;
+      letter-spacing: 5px;
+      font-weight: bolder;
+      /*text-shadow: 5px 3px 3px #fff;*/
+  }
+  .box a{
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 50px;
+    margin-left: 15px;
+    color: white;
+    display: inline-block;
+    border-radius: 30px;
+  }
+  a:hover{
+    background-color: rgba(34, 49, 52, 0.9);
+    cursor: pointer;
+  }
+  .one{
+    background-color: #ff7f50;
+  }
+  .two{
+    background-color: #6495ed;
+  }
+  .three{
+    background-color: #ff8c00;
+  }
+
+  /* ____________________________Footer codingan Farhan__________________________*/
+
+  .footer-content {
+    display: flex;
+    padding-top: 20px;
+}
+.footer {
+    flex: auto;
+    background-color: #222222;
+    color: white;
+    padding: 40px;
+}
+.footer h6{
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px;
+    font-style: italic;
+  
+}
+.footer-about {
+    flex: 1;
+    text-align: justify;
+}
+.footer-content p{
+    opacity: 0.7;
+}
+.footer-schedule {
+    padding-left: 200px;
+    flex: 2;
+}
+.footer-contact {
+    float: right;
+}
+.footer-schedule table{
+    width: 400px;
+    border:0px solid white;
+    height: 200px;
+    opacity: 0.7;
+}
+.footer-contact li{
+    list-style: none;
+    padding-bottom: 15px;
+    opacity: 0.7;
+}
+
+.footer-contact a{
+    color: white;
+}
+
+.clear {
+    clear: left;
+}
